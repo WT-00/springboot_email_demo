@@ -1,0 +1,20 @@
+
+spring:
+  mail:
+    #使用qq邮箱登录就填写smtp.qq.com
+    host: smtp.qq.com
+    #服务协议
+    protocol: smtp
+    default-encoding: UTF-8
+    username: XXXX
+    #去邮箱申请的校验码
+    password: XXXXX
+    test-connection: true
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
